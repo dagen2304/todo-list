@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3000
 const app = express()
 
 
-mongoose.connect(DB.conStr , {
+mongoose.connect(DB.prod , {
     useNewUrlParser: true,
     useFindAndModify: false,
     useUnifiedTopology: true
